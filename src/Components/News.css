@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');;
+
+.header{
+  font-family: 'Tilt Prism', cursive;
+}
+.heading{
+    font-family: 'Phudu', cursive;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-top: 60px;
+}
+.infinitescroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scroll{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.scrollnewscardContainer{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    overflow: auto;
+    width: 70%;
+    scroll-behavior: smooth;
+}
+.scrollnewscardContainer::-webkit-scrollbar{
+    display: none;
+}
+#prevbtn{
+    /* border: 2px solid violet; */
+    display: flex;
+    background-color: #aad0bab3;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    align-items: center;
+    transition: 0.1s;
+}
+#prevbtn:hover{
+    scale: 1.01;
+    background-color: #90c9a8bf ;
+    cursor: pointer;
+}
+#nextbtn{
+    /* border: 2px solid violet; */
+    display: flex;
+    align-items: center;
+    background-color: #aad0bab3;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.1s;
+}
+#nextbtn:hover{
+    scale: 1.01;
+    background-color: #90c9a8bf ;
+    cursor: pointer;
+}
+.scrollsinglecards{
+    display: flex;
+    width: 20rem;
+    /* margin: 0px; */
+    /* border: 2px solid red; */
+}
+.mainComponent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+}
+.newscardContainer{
+    display: flex;
+    /* border: 2px solid blue; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+.singlecards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    /* width: 30%; */
+    height: 90%;
+    /* border: 2px solid yellow; */
+}
+.btn{
+    /* display: flex; */
+    align-items: center;
+    padding: 7px;
+}
+.btncontainer{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
